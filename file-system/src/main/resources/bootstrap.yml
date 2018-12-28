@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: file-system-server
+  profiles:
+    active: dev
+  cloud:
+    config:
+      label: master
+      profile: ${spring.profiles.active}
+      uri: http://user:FVgn64Cbq4tCXzpow8V0vsj1RjlPKViQ@config.delicloud.com/platform
