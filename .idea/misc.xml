@@ -27,7 +27,7 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/file-system/pom.xml" />
         <option value="$PROJECT_DIR$/config-repos/pom.xml" />
-        <option value="$PROJECT_DIR$/parent/pom.xml" />
+        <option value="$PROJECT_DIR$/test-other/pom.xml" />
       </list>
     </option>
   </component>

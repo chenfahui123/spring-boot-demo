@@ -2,9 +2,10 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config-repos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-lang" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/file-system" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test-other" charset="UTF-8" />
   </component>
 </project>
