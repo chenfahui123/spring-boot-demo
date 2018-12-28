@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cfh</groupId>
-    <artifactId>file-system</artifactId>
+    <artifactId>config-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>file-system</name>
+    <name>config-server</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -21,10 +21,9 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
             <version>2.0.1.RELEASE</version>
         </dependency>
-
     </dependencies>
 
     <build>

@@ -1,14 +1,12 @@
+server:
+  port: 10011
+
 spring:
   application:
     name: file-system-server
   profiles:
     active: dev
-  cloud:
-    config:
-      profile: ${spring.profiles.active}
-      server:
-        git:
-          uri: https://github.com/chenfahui123/spring-config-repos.git
+
 eureka:
   instance:
     hostname: localhost

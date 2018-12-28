@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/chenfahui123/spring-config-repos.git
+server:
+    port: 10010

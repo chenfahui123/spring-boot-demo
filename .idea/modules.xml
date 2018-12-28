@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/file-system/file-system.iml" filepath="$PROJECT_DIR$/file-system/file-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot-demo.iml" />

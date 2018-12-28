@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
         <module name="eureka-server" />
         <module name="file-system" />
         <module name="spring-boot-demo" />
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="common-lang" target="1.5" />
       <module name="config-repos" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="file-system" target="1.8" />
       <module name="parent" target="1.8" />
@@ -26,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common-lang" options="-parameters" />
       <module name="config-repos" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="file-system" options="-parameters" />
       <module name="parent" options="-parameters" />
