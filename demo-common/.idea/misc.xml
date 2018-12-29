@@ -25,6 +25,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/demo-common-lang/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-common-cache/pom.xml" />
       </list>
     </option>
   </component>

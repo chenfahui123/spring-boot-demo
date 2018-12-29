@@ -7,17 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo-common" />
+        <module name="demo-common-cache" />
         <module name="demo-common-lang" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo-common" target="1.8" />
+      <module name="demo-common-cache" target="1.8" />
       <module name="demo-common-lang" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo-common" options="-parameters" />
+      <module name="demo-common-cache" options="-parameters" />
       <module name="demo-common-lang" options="-parameters" />
     </option>
   </component>

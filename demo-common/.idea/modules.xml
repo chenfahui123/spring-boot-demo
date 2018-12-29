@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo-common.iml" filepath="$PROJECT_DIR$/demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common-cache/demo-common-cache.iml" filepath="$PROJECT_DIR$/demo-common-cache/demo-common-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-common-lang/demo-common-lang.iml" filepath="$PROJECT_DIR$/demo-common-lang/demo-common-lang.iml" />
     </modules>
   </component>
