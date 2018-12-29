@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="layui/css/layui.css" media="all">
+    <script type="text/javascript" src="layui/layui.all.js" charset="utf-8"></script>
+</head>
+<body>
+<button type="button" class="layui-btn" id="test1">文件上传</button>
+</body>
+<script>
+    layui.use('upload', function(){
+        var upload = layui.upload;
+
+        //执行实例
+        var uploadInst = upload.render({
+            elem: '#test1' //绑定元素
+            ,url: '/file/upload' //上传接口
+            ,accept: 'file' //允许上传的文件类型
+            ,size: 1024 * 1024
+        });
+    });
+</script>
+</html>
